@@ -1,6 +1,6 @@
 [![@controlla/nuxt-typeform](https://images.ctfassets.net/co0pvta7hzrh/5A4NiAWcPUDSXrkCH7z2EL/773b8251e22e888aec7fcdf0c4a82f96/meta_Homepage.png_h_250)](https://typeform.controlla.org)
 
-# @controlla/nuxt3-typeform
+# @controlla/nuxt-typeform
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
