@@ -39,9 +39,6 @@ jobs:
       - name: Run linter 👀
         run: yarn lint
 
-      - name: Run Deploy 👀
-        run: yarn prepack
-
       # - name: Test
       #   run: yarn test
 

@@ -1,0 +1,5 @@
+{
+  "name": "@controlla/nuxt-typeform",
+  "configKey": "typeform",
+  "version": "1.0.0"
+}
