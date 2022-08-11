@@ -5,7 +5,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
-[![Codecov][codecov-src]][codecov-href]
+[![Codacy Badge][codacy-src]][codacy-href]
 [![License][license-src]][license-href]
 
 > [Typeform](https://www.typeform.com/) module for [Nuxt](https://v3.controlla.org)
@@ -63,7 +63,7 @@ Firstly, you need to add `@controlla/nuxt-typeform` to your Nuxt config.
 [npm-downloads-href]: https://npmjs.com/package/@controlla/nuxt-typeform
 [github-actions-ci-src]: https://github.com/Controlla/nuxt-typeform/actions/workflows/ci.yml/badge.svg
 [github-actions-ci-href]: https://github.com/Controlla/nuxt-typeform/actions?query=workflow%3Aci
-[codecov-src]: https://img.shields.io/codecov/c/github/Controlla/nuxt-typeform.svg
-[codecov-href]: https://codecov.io/gh/controlla/nuxt-typeform
+[codacy-src]: https://app.codacy.com/project/badge/Grade/25ac74a8298b4bcab29b4d062106eba0
+[codacy-href]: https://www.codacy.com/gh/Controlla/nuxt-typeform/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Controlla/nuxt-typeform&amp;utm_campaign=Badge_Grade
 [license-src]: https://img.shields.io/npm/l/@controlla/nuxt-typeform.svg
 [license-href]: https://npmjs.com/package/@controlla/nuxt-typeform
