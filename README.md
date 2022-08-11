@@ -10,16 +10,16 @@
 
 > [Typeform](https://www.typeform.com/) module for [Nuxt](https://v3.controlla.org)
 
-- [✨ &nbsp;Release Notes](https://github.com/Controlla/nuxt-typeform/releases)
-- [📖 &nbsp;Read the documentation](https://typeform.controlla.org)
+  - [✨ &nbsp;Release Notes](https://github.com/Controlla/nuxt-typeform/releases)
+  - [📖 &nbsp;Read the documentation](https://typeform.controlla.org)
 
 ## Features
 
-- Nuxt 3 ready
-- Easy integration with Typeform
-- Support for Vue Widget component
-- Support for Typeform Recommend
-- TypeScript support
+  - Nuxt 3 ready
+  - Easy integration with Typeform
+  - Support for Vue Widget component
+  - Support for Typeform Recommend
+  - TypeScript support
 
 ## Setup
 
@@ -47,9 +47,9 @@ Firstly, you need to add `@controlla/nuxt-typeform` to your Nuxt config.
 
 ## Development
 
-1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `yarn dev` or `npm run dev`
+ 1. Clone this repository
+ 2. Install dependencies using `yarn install` or `npm install`
+ 3. Start development server using `yarn dev` or `npm run dev`
 
 ## License
 
