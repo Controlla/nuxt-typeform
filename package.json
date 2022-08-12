@@ -1,6 +1,6 @@
 {
   "name": "@controlla/nuxt-typeform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typeform module for Nuxt",
   "author": "Controlla",
   "contributors": [
@@ -15,6 +15,7 @@
     }
   },
   "main": "./dist/module.cjs",
+  "module": "./dist/module.mjs",
   "types": "./dist/types.d.ts",
   "files": [
     "dist"
