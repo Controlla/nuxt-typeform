@@ -1,11 +1,14 @@
 <template>
-  <div />
+  <button @click="toggle">
+    Click me!
+  </button>
 </template>
 
 <script setup>
 const { $typeform } = useNuxtApp()
-// eslint-disable-next-line no-console
-$typeform.popup.toggle()
+function toggle () {
+  $typeform.popup.toggle()
+}
 </script>
 
 <style>

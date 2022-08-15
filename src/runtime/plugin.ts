@@ -1,6 +1,5 @@
-import '@typeform/embed/build/css/popup.css'
+import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 import { createPopup } from '@typeform/embed'
-import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const { formId } = useRuntimeConfig().typeform

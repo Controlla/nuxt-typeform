@@ -1,6 +1,8 @@
 import { resolve } from 'path'
 import { fileURLToPath } from 'url'
-import { defineNuxtModule, addPlugin, addComponentsDir } from '@nuxt/kit'
+import { defineNuxtModule, addComponentsDir, addPlugin } from '@nuxt/kit'
+
+import { name, version } from '../package.json'
 
 export interface ModuleOptions {
   formId: string
@@ -8,8 +10,13 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@controlla/nuxt-typeform',
-    configKey: 'typeform'
+    name,
+    version,
+    configKey: 'typeform',
+    compatibility: {
+      // Semver version of supported nuxt versions
+      nuxt: '^3.0.0'
+    }
   },
   defaults: {
     formId: ''
@@ -21,6 +28,8 @@ export default defineNuxtModule<ModuleOptions>({
     }
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
     nuxt.options.build.transpile.push(runtimeDir)
+
+    nuxt.options.css.push('@typeform/embed/build/css/popup.css')
 
     nuxt.options.runtimeConfig.public.typeform = {
       formId: options.formId
@@ -35,5 +44,9 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     addPlugin(resolve(runtimeDir, 'plugin'))
+
+    nuxt.hook('ready', async nuxt => {
+      console.log('Nuxt is ready')
+    })
   }
 })
