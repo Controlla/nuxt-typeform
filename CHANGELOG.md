@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/Controlla/nuxt-typeform/compare/v1.0.6...v1.0.7) (2022-08-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @nuxt/kit from 3.0.0-rc.7 to 3.0.0-rc.8 ([ea9dc25](https://github.com/Controlla/nuxt-typeform/commit/ea9dc253bb525ac4c8a6d37c07498d7a402510a2))
+
 ### [1.0.6](https://github.com/Controlla/nuxt-typeform/compare/v1.0.5...v1.0.6) (2022-08-15)
 
 ### [1.0.5](https://github.com/Controlla/nuxt-typeform/compare/v1.0.4...v1.0.5) (2022-08-12)
