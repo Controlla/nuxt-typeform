@@ -868,9 +868,9 @@
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
 "@typeform/embed@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.0.1.tgz#073f238ac3b05369a5d72f55e7bfc85db66887af"
-  integrity sha512-FeYgDtUAhFrCD7L7iAO65jzLUoPVXRbNjsXe7YQLgLinGpLeVXuwuOuzYagrVl3IQ3Ykmi4sA2LZr29LaMTA7w==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-2.2.0.tgz#0c43ea24c9cf42ae3ca6cf6deb8290c0288c8226"
+  integrity sha512-SAxUxaTyxCwd8z5GrxrELHAZy19IxleLJUunHEZSg6L38iuLD5MihrtNBkdeQcM5PER3REUKvS1YbXe8PlTiMw==
 
 "@types/estree@*":
   version "1.0.0"
